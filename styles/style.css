@@ -1,0 +1,344 @@
+/* Global styling */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+span,a{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+div.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 35px;
+}
+h3{
+    font-weight: 400;
+}
+p{
+    color: #686868;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.item{
+    float: left;
+}
+.clear-fix{
+    clear: both;
+}
+/* start header */
+/* start styling first section nav */
+div.header {
+    background-image: url('../imgs/bakery.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 12px;
+}
+div.header nav div.logo {
+    width: 30%;
+    float: left;
+}
+div.header nav div.logo a img{
+    width: 185px;
+}
+div.header nav div.logo, div.header nav div.list, div.header nav div.list ul li {
+    display: inline-block;
+}
+div.header nav div.list{
+    float: right;
+}
+div.header nav div.list ul li a{
+    color: white;
+    padding: 0 10px;
+    font-size: 18px;
+}
+/* end styling nav section */
+
+/* start styling family-bakery */
+
+div.family-bakery{
+    margin: 18% 0;
+    color: white;
+    text-align: center;
+}
+div.family-bakery div.title{
+    margin-bottom: 32px;
+}
+div.family-bakery div.title h1{
+    font-size: 70px;
+    margin: 0px 0 20px;
+    font-weight: 400;
+}
+div.family-bakery div.title p{
+    font-size: 25px;
+    color: white;
+}
+div.family-bakery div.title p span{
+    display: inline-block;
+    margin-top: 12px;
+}
+div.family-bakery div.buttons button{
+    display: inline-block;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    padding: 15px 25px;
+    font-weight: bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+div.family-bakery div.buttons button.learn-more{
+    background-color: #8e7754;
+    margin-right: 6px;
+}
+div.family-bakery div.buttons button.contact-us{
+    border-color: white;
+}
+div.family-bakery div.buttons button.learn-more:hover,div.family-bakery div.buttons button.contact-us:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+/* end styling family-bakery */
+/* end header */
+
+/* start who we are */
+div.who-we-are{
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+div.who-we-are div.content div.image , div.who-we-are div.content div.description{
+    display: inline-block;
+    width: 48%
+}
+div.who-we-are div.content div.image{
+    margin-right: 2%;
+}
+/* div.who-we-are div.content div.image img{
+    width: 100%;
+} */
+div.who-we-are div.content div.description{
+    font-size: 17px;
+    padding-left: 40px;
+    vertical-align: top;
+}
+/* div.who-we-are div.content div.description h2{
+    font-weight: 400;
+    font-size: 40px;
+} */
+/* div.who-we-are div.content div.description p{
+    color: #686868;
+    line-height: 30px;
+    margin-bottom: 30px;
+} */
+div.who-we-are div.content div.description ul li{
+    color: #686868;
+    margin-bottom: 25px;
+}
+div.who-we-are div.content div.description ul li img{
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 5px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+div.who-we-are div.content div.description ul li span{
+    vertical-align: middle;
+}
+/* end who we are */
+
+/* start our location*/
+div.our-location{
+    margin-bottom: 50px;
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+div.our-location div.content div.image , div.our-location div.content div.description{
+    display: inline-block;
+    width: 48%
+}
+div.our-location div.content div.image{
+    margin-left: 2%;
+}
+div.our-location div.content div.description{
+    font-size: 17px;
+    padding-right: 40px;
+    vertical-align: top;
+}
+/* div.our-location div.content div.description h2{
+    font-weight: 400;
+    font-size: 40px;
+} */
+/* div.our-location div.content div.description p{
+    color: #686868;
+    line-height: 30px;
+    margin-bottom: 30px;
+} */
+div.our-location div.content div.description p span{
+    padding-top: 20px;
+}
+/* end our location */
+/* start our baking */
+div.our-baking{
+    text-align: center;
+    margin-bottom: 50px;
+}
+div.our-baking div.row div.item{
+    width: calc((100%/3));
+    padding-right: 30px;
+}
+
+/* end our baking */
+
+/* start information */
+div.information{
+    margin-top: 50px;
+    background-color: #f8f8f8;
+    padding:50px 0;
+}
+div.information div.row div.item{
+    width: calc(100%/2);
+    padding-right: 20px;
+}
+div.information div.row div.item div.contact{
+    padding-right: 20px;
+}
+div.information div.row div.item div.list ul li{
+    color: #686868;
+    margin-bottom: 20px;
+}
+div.information div.row div.item div.list ul li span.icon{
+    margin-right: 12px;
+    background-color: #8e7754;
+    font-size: 18px;
+    width: 38px;
+    height: 38px;
+    color: white;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* end information */
+/* start details */
+div.details{
+    padding-top: 30px;
+    background-color: #403d38;
+}
+div.details .row .item{
+    width: calc(100%/4);
+    padding-right: 25px;
+}
+div.details .row .item h3{
+    color: white;
+}
+div.details .row .item p{
+    color: #969696;
+    line-height: 25px;
+}
+div.details .row .item p span{
+    padding-top: 20px;
+}
+div.details .row .item ul li{
+    color: #969696;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    z-index: 1;
+}
+div.details .row .item ul li span.location{
+    font-size: 16px;
+    padding-left: 17px;
+    display: inline-block
+}
+div.details .row .item ul li:last-child{
+    border: none;
+}
+div.details .row .item ul li span{
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+/* end details */
+/* start footer */
+div.footer{
+    padding-top: 50px;
+    background-color: #353330;
+    text-align: center;
+    padding-bottom: 30px;
+}
+div.footer .logo{
+    margin: auto;
+    width: 30%;
+}
+div.footer .social span.icon{
+    width: 40px;
+    height: 40px;
+    line-height: 41px;
+    font-size: 18px;
+    background-color: #484540;
+    color: #8c8a86;
+    margin-right: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+div.footer .social span.face:hover{
+    background-color: #3b5998;
+    cursor: pointer;
+    color: white;
+}
+div.footer .social span.google:hover{
+    background-color: #dd4b39 ;
+    cursor: pointer;
+    color: white;
+}
+div.footer .social span.linkdin:hover{
+    background-color: #007bb5;
+    cursor: pointer;
+    color: white;
+}
+div.footer .social span.twitter:hover{
+    background-color: #00aced;
+    cursor: pointer;
+    color: white;
+}
+/* end footer */
